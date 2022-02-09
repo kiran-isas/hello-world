@@ -56,6 +56,8 @@ $res2 = mysql_query($selec_db2,$link2);
  
 $row2 = mysql_fetch_array($res2);
 echo "<br/>2 -".$row2['username'] .' - '. $row2['pass']."<br>";
+
+echo "added new line here to check is git commit status work or not";
 ?>
 
 
