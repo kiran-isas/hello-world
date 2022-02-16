@@ -63,7 +63,7 @@ if(mysql_num_rows($ptr_access))
     <script src="js/chosen.jquery.js" type="text/javascript"></script>
     <script type="text/javascript">
 	var pageName = "sales_product";
-    $(document).ready(function()
+    $(document).ready(function()  
 	{            
 		$('.datepicker').datepicker({ changeMonth: true,changeYear: true, showButtonPanel: true, closeText: 'Clear'});
 		$.datepicker._generateHTML_Old = $.datepicker._generateHTML; $.datepicker._generateHTML = function(inst)
