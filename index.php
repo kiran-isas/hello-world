@@ -13,5 +13,6 @@
 <div><img src="img_hello_git.jpg" alt="Hello Git" style="width:100%;max-width:640px"></div>
 
 <p>we are requested in git for push order </p>
+  <p>There is new branch created as name as html-skeleton. we tested as a new created branch</p>
 </body>
 </html> 
